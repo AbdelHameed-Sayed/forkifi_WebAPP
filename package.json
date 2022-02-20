@@ -1,0 +1,33 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "AbdelHameed Sayed",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "parcel": "^2.2.1",
+    "sass": "^1.48.0"
+  },
+  "dependencies": {
+    "bundler": "^0.8.0",
+    "core-js": "^3.20.3",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.9",
+    "node": "^17.4.0",
+    "node.js": "^0.0.1-security",
+    "npm": "^8.3.1",
+    "regenerator-runtime": "^0.13.9",
+    "uuid": "^8.3.2"
+  }
+}
