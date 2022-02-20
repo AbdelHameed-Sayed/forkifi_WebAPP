@@ -3,6 +3,7 @@ import { API_URL, RESULTS_PER_PAGE, KEY } from './config.js';
 // import { getJSON, sendJSON } from './helpers.js';
 import { AJAX } from './helpers.js';
 
+
 export const state = {
   recipe: {},
   search: {

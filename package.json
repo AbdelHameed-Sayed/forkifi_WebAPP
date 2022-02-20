@@ -20,7 +20,6 @@
     "sass": "^1.48.0"
   },
   "dependencies": {
-    "bundler": "^0.8.0",
     "core-js": "^3.20.3",
     "fractional": "^1.0.0",
     "fracty": "^1.0.9",
