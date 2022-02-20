@@ -1,5 +1,5 @@
 import View from './View.js';
-import previewView from './previewView.js';
+import PreviewView from './PreviewView.js';
 import icons from 'url:../../img/icons.svg'; // parcl2
 
 class ResultsView extends View {
@@ -9,7 +9,7 @@ class ResultsView extends View {
 
   _generateMarkup() {
     console.log(this._data);
-    return this._data.map(result => previewView.render(result, false)).join('');
+    return this._data.map(result => PreviewView.render(result, false)).join('');
   }
 }
 
